@@ -29,6 +29,10 @@ public class Student extends Person{
         System.out.println("Sleeping not good because of exams");
     }
 
+    public void exampleStudent(){
+        System.out.println("example");
+    }
+
     @Override
     public String toString() {
         return super.getId() + ": " + super.getName() + " " + super.getSurname() + " - " + gpa;

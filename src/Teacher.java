@@ -15,6 +15,10 @@ public class Teacher extends Person{
         return courseName;
     }
 
+    public void teach(){
+        System.out.println("teaching");
+    }
+
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
